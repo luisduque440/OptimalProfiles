@@ -6,7 +6,7 @@ Even though this problem is very old, it is still not known which one is the bes
 
 In the project NewtonProfile-SquareDomain.ipynb , I implemented a greedy numerical approach for finding the optimal profile when the domain is a square. 
 
-My approach: 
+#My approach: 
 The main difficulty when implementing these simulations was the following: Newtons functional only has a physical meaning when the surface involved is concave (see Equation 3.2 in [1]). 
 
 In order to produce convex surfaces (see method Profile.mutate() in NewtonProfile-SquareDomain.ipynb ) I used the fact that every convex function can be written as an infimum of countably many planes. 
@@ -14,7 +14,7 @@ In order to produce convex surfaces (see method Profile.mutate() in NewtonProfil
 Once I was able to generate convex surfaces using this trick, finding the numerical solution to the problem was a matter of implementing Newtons Functional (see method Profile.resistence()) and minimizing it in a greedy way (see the methods ImproveProfile() and ImproveProfile())
 
 
-The solution:
+#The solution:
 I want to point out that the best solutions found when running this code are indeed very similar to the screwdriver shape found by Buttazzo (see Figure 3.7 in [1]) in the case when the domain is a Ball.
 
 
