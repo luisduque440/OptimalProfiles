@@ -1,8 +1,4 @@
-# OptimalProfiles
-Newtons problem on optimal profiles
-
-
-NEWTON PROBLEM OF OPTIMAL PROFILES
+# Newtons problem on optimal profiles
 
 In Principia Mathematica, Newton proposed the problem of finding the profile of the body that gives minimal (aerodynamic or hydrodynamic) resistance to the motion. A very complete survey of the state of the art of this problem can be found in Buttazzo’s paper [1].
 
