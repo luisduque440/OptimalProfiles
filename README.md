@@ -13,7 +13,7 @@ In order to produce convex surfaces (see method Profile.mutate() in NewtonProfil
 Once I was able to generate convex surfaces using this trick, finding the numerical solution to the problem was a matter of implementing Newtons Functional (see method Profile.resistence()) and minimizing it in a greedy way (see the methods ImproveProfile() and ImproveProfile())
 
 # The solution:
-I want to point out that the best solutions found when running the file NewtonProfile.ipynb are indeed very similar to the screwdriver shape found by Buttazzo (see Figure 3.7 in [1]) in the case when the domain is a Ball.
+I want to point out that the best solutions found when running the file NewtonProfile.ipynb are indeed very similar to the screwdriver shape found by Guasoni (see Figure 3.7 in [1]) in the case when the domain is a Ball.
 
 
 
